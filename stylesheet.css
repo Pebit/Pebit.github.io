@@ -1,0 +1,23 @@
+.TITLE{
+    text-align: center;
+    font-size: 10em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.CONTAINER{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.CATDANCE{
+    margin-left: 2em;
+    margin-top: 1em;
+    flex-basis:1em;
+}
+
+.INFO{
+    font-size: 20px;
+    padding-left: 20px;
+}

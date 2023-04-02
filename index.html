@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script>
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+    
+    let reverseR = false;
+    let reverseG = false;
+    let reverseB = false;
+    
+    setInterval(changeColor,10);
+    
+function changeColor(){
+  if(reverseR === false){r += 1 ;}
+    if(r === 255){reverseR = true}
+    else if(r === 0){reverseR = false}
+    if(reverseR === true){r -= 1 ;  }
+    if(reverseG === false){g += 1 ;}
+    if(g === 255){reverseG = true}
+    else if(g === 0){reverseG = false}
+    if(reverseG === true){g -= 1 ;  }
+    if(reverseB === false){b += 1 ;}
+    if(b === 255){reverseB = true}
+    else if(b === 0){reverseB = false}
+    if(reverseB === true){b -= 1 ;}
+    document.body.style.backgroundColor = `rgb( ${r}, ${g}, ${b} )`;}
+    </script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <script src="logic.js"></script>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
+</head>
+<body>
+        <h2 class="TITLE">CATS 4Days</h2>
+    <div class="CONTAINER">
+        <img class="CATDANCE" onclick="MeawSound()" src="catdance.gif">
+        <p class="INFO">something in the wind</p>
+    </div>
+</body>
+</html>
