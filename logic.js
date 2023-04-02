@@ -1,7 +1,7 @@
 function MeawSound()
 {
     let chance = Math.floor(Math.random() * 5);
-    if(chance > 6)
+    if(chance > 3)
     {
         var audio = new Audio('SECRET.mp3');
         audio.play();
