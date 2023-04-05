@@ -10,5 +10,14 @@ function MeawSound()
         var audio = new Audio('meaw.mp3');
         audio.play();
     }
-    
+}
+function sqekSound()
+{
+    var audio = new Audio('sqek.mp3');
+    audio.play();
+}
+function LSound()
+{
+    var audio = new Audio('L.mp3');
+    audio.play();
 }

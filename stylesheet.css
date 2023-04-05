@@ -1,8 +1,53 @@
+@font-face{
+    font-family:'RoundCool';
+    src:url(fonts/Moodboard.otf);
+}
+
+@font-face{
+    font-family:'SwirlyCute';
+    src:url(fonts/CuteEgg.ttf);
+}
+
+@font-face{
+    font-family:'Code';
+    src:url(fonts/Code.ttf);
+}
+
+@font-face{
+    font-family:'FancyGentlewords';
+    src:url(fonts/fancy.ttf);
+}
+
+@font-face{
+    font-family:'ComicTitle';
+    src:url(fonts/ComicTitle.ttf);
+}
+
+@font-face{
+    font-family:'Comic';
+    src:url(fonts/Comic.ttf);
+}
+
+.TITLEIMG{
+    align-items: center;
+    width:10em;
+}
+
 .TITLE{
+    font-family: 'RoundCool', sans-serif;
+    color:white;
     text-align: center;
-    font-size: 10em;
+    font-size: 17em;
     margin-bottom: 0em;
     margin-top: 0em;
+}
+
+.CEZICEPISICA{
+    font-family:"Comic";
+    font-size:30px;
+    padding-left: 190px;
+    color:white;
+    margin:0;
 }
 
 .CONTAINER{
@@ -14,10 +59,78 @@
 .CATDANCE{
     margin-left: 2em;
     margin-top: 1em;
+    height:15em;
     flex-basis:1em;
+    border-style:dotted;
 }
 
 .INFO{
-    font-size: 20px;
-    padding-left: 20px;
+    margin-left: 1em;
+    border-radius: 25px;
+    border: 2px solid white;
+    font-family:"SwirlyCute";
+    background-color: white;
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.CONTAINER2{
+    position: relative;
+    text-align: left;
+    justify-content: left;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.LINKIMAGE{
+    border-style:dashed;
+    object-position: left;
+    width: 300px; height: 100px; object-fit: cover;
+}
+
+.LINKTEXT{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Code';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.FANCY{
+    font-family:'FancyGentlewords';
+    font-size:50px;
+    color:white;
+    margin:0;
+}
+
+a{
+    color:pink;
+    text-shadow: 2px 2px black;
+}
+
+.PISICI{
+    font-family:'ComicTitle';
+    color:white;
+}
+
+.PISICICONTENT{
+    border-style:solid;
+    border-width:thick;
+    border-color:black;
+    height: 20em;
+}
+
+.PISICIINFO{
+    color:yellow;
+    font-style:oblique;
+    font-size:20px;
 }

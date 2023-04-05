@@ -2,43 +2,77 @@
 <html>
 <head>
     
-    <script>
-    let r = Math.floor(Math.random() * 255);
-    let g = Math.floor(Math.random() * 255);
-    let b = Math.floor(Math.random() * 255);
-    
-    let reverseR = false;
-    let reverseG = false;
-    let reverseB = false;
-    
-    setInterval(changeColor,10);
-    
-function changeColor(){
-  if(reverseR === false){r += 1 ;}
-    if(r === 255){reverseR = true}
-    else if(r === 0){reverseR = false}
-    if(reverseR === true){r -= 1 ;  }
-    if(reverseG === false){g += 1 ;}
-    if(g === 255){reverseG = true}
-    else if(g === 0){reverseG = false}
-    if(reverseG === true){g -= 1 ;  }
-    if(reverseB === false){b += 1 ;}
-    if(b === 255){reverseB = true}
-    else if(b === 0){reverseB = false}
-    if(reverseB === true){b -= 1 ;}
-    document.body.style.backgroundColor = `rgb( ${r}, ${g}, ${b} )`;}
-    </script>
-    
-    
+    <title>PisiPisi:)</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css" />
     <script src="logic.js"></script>
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
 </head>
-<body>
-        <h2 class="TITLE">CATS 4Days</h2>
+<body style="background: #5d32a0">
+    
+    <h2 class="TITLE">PisiSite!</h2>
+    
+    <p class="CEZICEPISICA">&nbsp;&nbsp;&nbsp;&nbsp;DA UN CLICK AICI, MIAU!! :3</p>
+    <p class="CEZICEPISICA">/</p>
+    
     <div class="CONTAINER">
         <img class="CATDANCE" onclick="MeawSound()" src="catdance.gif">
-        <p class="INFO">something in the wind</p>
+        <p class="INFO">Bine ai venit la siteul meu cu pisici!!!1!&nbsp;</p>
+    </div><br>
+    
+<p class="FANCY">ALEGE CATEGORIA PREFERATA:</p><br>
+
+<div class="row">
+  <div class="column">
+    <div class="CONTAINER">
+        <div class="CONTAINER2">
+          <a href="pisicidragute.html" target=”_blank” onclick="sqekSound()"><img class="LINKIMAGE" src="QT.gif">
+          <p class="LINKTEXT">pisici dragalase</p></a>
+        </div>
     </div>
+  </div>
+  <div class="column">
+    <div class="CONTAINER">
+        <div class="CONTAINER2">
+          <a href="pisicidolofane.html" target=”_blank” onclick="sqekSound()"><img class="LINKIMAGE" src="Chonkerz.jpg">
+          <p class="LINKTEXT">pisici dolofane</p></a>
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="CONTAINER">
+        <div class="CONTAINER2">
+          <a href="pisiciamuzante.html" target=”_blank” onclick="sqekSound()"><img class="LINKIMAGE" src="funnycat.png">
+          <p class="LINKTEXT">pisici fanii</p></a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="CONTAINER">
+        <div class="CONTAINER2">
+          <a href="pisicicosplay.html" target=”_blank” onclick="sqekSound()"><img class="LINKIMAGE" src="cosplay.gif">
+          <p class="LINKTEXT">pisici cosplayeri</p></a>
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="CONTAINER">
+        <div class="CONTAINER2">
+          <a href="pisicifanart.html" target=”_blank” onclick="sqekSound()"><img class="LINKIMAGE" src="CattingtonThe1st.jpg">
+          <p class="LINKTEXT" style="">pisici fanart</p></a>
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="CONTAINER">
+        <div class="CONTAINER2">
+          <a href="pisicitroll.html" target=”_blank” onclick="LSound()"><img class="LINKIMAGE" src="trollcat.gif">
+          <p class="LINKTEXT">pisici troll</p></a>
+        </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
